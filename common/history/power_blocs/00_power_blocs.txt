@@ -1,0 +1,3 @@
+﻿POWER_BLOCS = {
+	 
+}
