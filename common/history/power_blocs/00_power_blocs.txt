@@ -1,3 +1,98 @@
 ﻿POWER_BLOCS = {
-	 
+	  
+	c:GBR ?= {
+		create_power_bloc = {
+			name = BRITISH_EMPIRE
+			map_color = hsv{ 0.99  0.7  0.9 }
+
+			founding_date = 1784.5.12 # Treaty of Paris (1783) comes into effect
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1
+
+			# subjects are automatically part of the bloc
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+			power_bloc = {
+				add_principle = principle_colonial_offices_2
+			}
+		}
+	}
+
+	# Ottomans: "Exhalted State", Devlet-i 'Aliye. Using an irregular character for ', ʿ, in loc.
+	c:TUR ?= {
+		create_power_bloc = {
+			name = DEVLET_I__ALIYE
+
+			map_color = { 170 206 162 }
+
+			founding_date = 1453.5.29
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_1 
+		}
+		if = {
+			limit = {
+				has_dlc_feature = power_bloc_features
+			}
+			power_bloc = {
+				add_principle = principle_external_trade_1
+			}
+		}
+	} 
+	c:FRA ?= {
+		create_power_bloc = {
+			name = FRA_NAP
+			map_color = { 21 4 225 }
+			founding_date = 1803.1.1
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_3
+			
+		}
+	}
+
+	c:RUS ?= {
+		create_power_bloc = {
+			name = RUS_EMP
+			map_color = { 70 136 11 }
+			founding_date = 1721.1.1
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_3
+			
+		}
+	}
+
+	c:AUS ?= {
+		create_power_bloc = {
+			name = AUS_EPM
+			map_color = { 254 221 175 }
+			founding_date = 1790.1.1
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_3
+			
+		}
+	}
+
+	c:SPA ?= {
+		create_power_bloc = {
+			name = SPA_EMP
+			map_color = { 206 141 6 }
+			founding_date = 1493.1.1
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_3
+			
+		}
+	}
+
+	c:POR ?= {
+		create_power_bloc = {
+			name = POR_EMP
+			map_color = { 21 150 7 }
+			founding_date = 1836.1.1
+			identity = identity_sovereign_empire
+			principle = principle_vassalization_3
+			
+		}
+	}
 }

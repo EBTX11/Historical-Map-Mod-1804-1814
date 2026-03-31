@@ -1,27 +1,27 @@
-INJECT:JAP = {	
-	flag_definition = {
-		coa = JAP
-		subject_canton = JAP
-		priority = 1500
-		trigger = {
-			scope:actor = {
-				has_law = law_type:law_monarchy
-				has_law = law_type:law_oligarchy
-			}
-		}
-	}
-	flag_definition = {
-		coa = JAP_rising_sun
-		subject_canton = JAP_rising_sun	
-		priority = 1500
-		trigger = {
-			scope:actor = {
-				has_law = law_type:law_monarchy
-				has_law = law_type:law_autocracy
-			}
-		}
-	}
-}
+# INJECT:JAP = {	
+# 	flag_definition = {
+# 		coa = JAP
+# 		subject_canton = JAP
+# 		priority = 1500
+# 		trigger = {
+# 			scope:actor = {
+# 				has_law = law_type:law_monarchy
+# 				has_law = law_type:law_oligarchy
+# 			}
+# 		}
+# 	}
+# 	flag_definition = {
+# 		coa = JAP_rising_sun
+# 		subject_canton = JAP_rising_sun	
+# 		priority = 1500
+# 		trigger = {
+# 			scope:actor = {
+# 				has_law = law_type:law_monarchy
+# 				has_law = law_type:law_autocracy
+# 			}
+# 		}
+# 	}
+# }
 INJECT:AUS = { # Austria
 	flag_definition = {
 		coa = AUS
@@ -580,6 +580,397 @@ INJECT:ZIM = {
 	}  
 } 
  
+
+
+
+INJECT:TUS = { 
+	flag_definition = {
+		coa = TUS_napoleon
+		priority = 20
+		trigger = {
+			exists = c:FRA
+			c:FRA = {
+				has_diplomatic_pact = {
+					who = c:TUS
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+} 
+INJECT:LUC = { 
+	flag_definition = {
+		coa = LUC_napoleon
+		priority = 20
+		trigger = {
+			exists = c:FRA
+			c:FRA = {
+				has_diplomatic_pact = {
+					who = c:LUC
+					type = protectorate
+					is_initiator = yes
+				}
+			}
+		}
+	}
+} 
+INJECT:NET = { 
+	flag_definition = {
+		coa = NET_napoleon
+		priority = 20
+		trigger = {
+			exists = c:FRA
+			c:FRA = {
+				has_diplomatic_pact = {
+					who = c:NET
+					type = protectorate
+					is_initiator = yes
+				}
+			}
+		}
+	}
+} 
+INJECT:WLD = { 
+	flag_definition = {
+		coa = WLD_napoleon
+		priority = 20
+		trigger = {
+			exists = c:FRA
+			c:FRA = {
+				has_diplomatic_pact = {
+					who = c:WLD
+					type = protectorate
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+INJECT:WES = { 
+	flag_definition = {
+		coa = WES_napoleon
+		priority = 20
+		trigger = {
+			exists = c:FRA
+			c:FRA = {
+				has_diplomatic_pact = {
+					who = c:WES
+					type = protectorate
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+INJECT:BAD = { 
+	flag_definition = {
+		coa = BAD_napoleon
+		priority = 20
+		trigger = {
+			exists = c:FRA
+			c:FRA = {
+				has_diplomatic_pact = {
+					who = c:BAD
+					type = protectorate
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+INJECT:BAV = { 
+	flag_definition = {
+		coa = BAV_napoleon
+		priority = 20
+		trigger = {
+			exists = c:FRA
+			c:FRA = {
+				has_diplomatic_pact = {
+					who = c:BAV
+					type = protectorate
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+INJECT:SAX = { 
+	flag_definition = {
+		coa = SAX_napoleon
+		priority = 20
+		trigger = {
+			exists = c:FRA
+			c:FRA = {
+				has_diplomatic_pact = {
+					who = c:SAX
+					type = protectorate
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+INJECT:PRU = { 
+	flag_definition = {
+		coa = PRU_absolute_monarchy_2
+		subject_canton = PRU_absolute_monarchy_2
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = PRU_subject	
+		overlord_canton_scale = { 0.337 0.337 }				
+
+		priority = 100
+		possible = {
+			exists = c:PRU
+			THIS = c:PRU
+			trigger = {
+				game_date < 1871.1.1
+			}
+		}
+	}
+} 
+INJECT:GBR = { # Great Britain / United Kingdom
+	flag_definition = {
+		coa = GBR
+		subject_canton = GBR
+		priority = 3
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+		trigger = {
+			coa_controls_part_of_ireland = no
+		}
+	}
+} 
+INJECT:HND = { 
+	flag_definition = {
+		coa = MAR
+		subject_canton = MAR
+		allow_overlord_canton = yes
+
+		priority = 100
+		possible = {
+			exists = c:HND
+			THIS = c:HND
+			trigger = {
+				game_date < 1900.1.1
+			}
+		}
+		
+	}
+}
+INJECT:USA = { 
+	flag_definition = {
+		coa = USA_15
+		coa_with_overlord_canton = USA_15
+		overlord_canton_scale = { @usa_canton_width @usa_canton_height }
+		allow_overlord_canton = yes
+		subject_canton = sub_USA_canton_star
+
+		priority = 100
+		trigger = { 
+			exists = c:USA
+			c:USA = {
+				any_scope_state = {
+					state_region = { NOT = { has_variable = usa_state_flag_block } }
+					is_incorporated = yes
+					count < 20
+				}
+			}
+		}
+	}
+}
+ 
+INJECT:POL = { 
+	flag_definition = {
+		coa = POL_napoleon
+		priority = 20
+		trigger = {
+			exists = c:FRA
+			c:FRA = {
+				has_diplomatic_pact = {
+					who = c:POL
+					type = protectorate
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+SPN = { 
+	flag_definition = {
+		coa = SPA_napoleon
+		priority = 20
+	}
+}
+INJECT:MEX = { 
+	flag_definition = {
+		coa = MEX_viceroyalty
+		priority = 50
+		trigger = {
+			exists = c:SPA
+			c:SPA = {
+				has_diplomatic_pact = {
+					who = c:MEX
+					type = colony
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+INJECT:CHL = { 
+	flag_definition = {
+		coa = CHL_viceroyalty
+		priority = 50
+		trigger = {
+			exists = c:SPA
+			c:SPA = {
+				has_diplomatic_pact = {
+					who = c:CHL
+					type = colony
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+INJECT:VNZ = { 
+	flag_definition = {
+		coa = VNZ_viceroyalty
+		priority = 50
+		trigger = {
+			exists = c:SPA
+			c:SPA = {
+				has_diplomatic_pact = {
+					who = c:VNZ
+					type = colony
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+INJECT:PEU = { 
+	flag_definition = {
+		coa = PEU_viceroyalty
+		priority = 50
+		trigger = {
+			exists = c:SPA
+			c:SPA = {
+				has_diplomatic_pact = {
+					who = c:PEU
+					type = colony
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+INJECT:ARG = { 
+	flag_definition = {
+		coa = ARG_viceroyalty
+		priority = 50
+		trigger = {
+			exists = c:SPA
+			c:SPA = {
+				has_diplomatic_pact = {
+					who = c:ARG
+					type = colony
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+INJECT:CLM = { 
+	flag_definition = {
+		coa = CGO_viceroyalty
+		priority = 100
+		trigger = {
+			exists = c:SPA
+			c:SPA = {
+				has_diplomatic_pact = {
+					who = c:CGO
+					type = colony
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+INJECT:POR = {
+	flag_definition = {
+		coa = POR_BRZ
+		priority = 50
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+			scope:actor = {
+				owns_entire_state_region = STATE_RIO_DE_JANEIRO
+				owns_entire_state_region = STATE_SAO_PAULO
+			}
+			NOT = { exists = c:BRZ }
+		}
+	}
+}
+INJECT:ITA = { # Italy
+	flag_definition = {
+		coa = ITA
+		priority = 15
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+	flag_definition = {
+		coa = ITA_napoleon
+		priority = 20
+		trigger = {
+			exists = c:FRA
+			c:FRA = {
+				has_diplomatic_pact = {
+					who = c:ITA
+					type = protectorate
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 STN = { 
 	flag_definition = {
 	    coa = STN		

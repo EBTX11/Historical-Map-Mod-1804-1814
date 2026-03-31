@@ -46,7 +46,7 @@ KNK = {
 }
 
 PPU = {
-	color = { 81 97 170 }
+	color = { 250 249 245 }
 
 	country_type = decentralized
 
@@ -238,7 +238,7 @@ UNT = { # United Tribes of New Zealand
 
 NNG = { # Noongar
 
-	color = { 209 160 107 }
+	color = { 250 249 245 }
 
 	country_type = decentralized
 
@@ -438,7 +438,7 @@ SUL = {
 
 # Sulawesi
 SLW = {
-	color = { 153 0 0 }
+	color = { 250 249 245 }
 
 	country_type = decentralized
 

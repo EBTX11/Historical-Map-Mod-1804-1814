@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:ABU ?= {
+	}
+	
+
+#		create_character = {
+			# Saeed bin Tahnun Al Nahyan, nephew of Khalifa
+#			first_name = "Said"
+#			last_name = "al_Qasim"
+#			heir = yes
+#			age = 20
+#			interest_group = ig_landowners
+#			ideology = ideology_traditionalist
+#			traits = {
+#				imperious
+#			}
+#		}
+	}
+}

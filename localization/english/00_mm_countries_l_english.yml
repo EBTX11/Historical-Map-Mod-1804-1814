@@ -78,9 +78,9 @@
   CAV_ADJ:0 "Caucasian"
   CAD:0 "Central Asian Desert" 
   CAD_ADJ:0 "Central Asian"
-  DOA:0 "Deserts of Australia" 
-  DOA_ADJ:0 "Native"
-  MM01:0 "Arabian Desert" 
+  ASD:0 "Deserts of Australia" 
+  ASD_ADJ:0 "Native"
+  AED:0 "Arabian Desert" 
   AED_ADJ:0 "Arabian"
   KID:0 "Kalahari Desert" 
   KID_ADJ:0 "Kalaharian"
@@ -109,7 +109,12 @@
   XXY_ADJ:0 "Heratan"
   XXU:0 "Maimana"
   XXU_ADJ:0 "Maimanan"
+  XXU:0 "Maimana"
+  XXU_ADJ:0 "Maimanan" 
+  RIP:0 "Rupert's Land"
+  RIP_ADJ:0 "Rupertian"
 
+ 
   ############################################################################################################################################
   ############################################################################################################################################
   ############################################################################################################################################

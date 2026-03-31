@@ -1,6 +1,8 @@
 ﻿POPS = {
 	s:STATE_DZUNGARIA = {
-		region_state:CHI = {
+		
+	
+		region_state:XIN = {
 			# Based off estimates by James Millward and Wang Xilong
 			# Northern Xinjiang excluding Turfan and the Khumul Khanate
 			create_pop = {
@@ -67,7 +69,9 @@
 		}
 	}
 	s:STATE_TIANSHAN = {
-		region_state:CHI = {
+		
+	
+		region_state:XIN = {
 			# Based off estimates by James Millward and Wang Xilong
 			# Only some 'hundreds' Chinese merchants were settled in the Tarim Basis
 			create_pop = {
@@ -244,7 +248,9 @@
 		}
 	}
 	s:STATE_ALXA = {
-		region_state:CHI = {
+		
+	
+		region_state:IMG = {
 			# Alasha Ööled and Ejine Torghuud banner. Could not find accurate population data, but should be relatively low
 			create_pop = {
 				culture = mongol
@@ -262,7 +268,9 @@
 	}
 	# Renamed Monan
 	s:STATE_HINGGAN = {
-		region_state:CHI = {
+		
+	
+		region_state:IMG = {
 			create_pop = {
 				culture = mongol
 				size = 1123002
@@ -376,7 +384,9 @@
 		}
 	}
 	s:STATE_SOUTHERN_MANCHURIA = {
-		region_state:CHI = {
+		
+	
+		region_state:MCH = {
 			create_pop = {
 				culture = manchu
 				size = 5210800
@@ -401,7 +411,9 @@
 		}
 	}
 	s:STATE_NORTHERN_MANCHURIA = {
-		region_state:CHI = {
+		
+	
+		region_state:MCH = {
 			create_pop = {
 				culture = manchu
 				size = 2821200
@@ -521,7 +533,9 @@
 		}
 	}
 	s:STATE_QINGHAI = {
-		region_state:CHI = {
+		
+	
+		region_state:QIN = {
 			create_pop = {
 				culture = tibetan
 				size = 819404
@@ -627,21 +641,21 @@
 		region_state:POR = {
 			create_pop = {
 				culture = yue
-				size = 186000
+				size = 135236
 			}
 			create_pop = {
 				culture = yue
-				size = 156000
+				size = 113424
 				religion = mahayana
 			}
 			create_pop = {
 				culture = portuguese
-				size = 996
+				size = 724
 			}
 			create_pop = {
 				culture = yue
 				religion = catholic
-				size = 5000
+				size = 3636
 			}
 		}
 	}
@@ -1026,7 +1040,9 @@
 	}
 	# Population of Outer Mongolia should be somewhat over 600,000, but I could not find data for a more granular distribution in regards to West vs East. Due to the existence of more banners in the East, I have assumed this also means a somewhat higher population.
 	s:STATE_ULIASTAI = {
-		region_state:CHI = {
+		
+	
+		region_state:OMG = {
 			create_pop = {
 				culture = mongol
 				size = 270000
@@ -1042,7 +1058,9 @@
 		}
 	}
 	s:STATE_URGA = {
-		region_state:CHI = {
+		
+	
+		region_state:OMG = {
 			create_pop = {
 				culture = mongol
 				size = 340000
@@ -1121,7 +1139,9 @@
 		}
 	}
 	s:STATE_BANGKOK = {
-		region_state:SIA = {
+		
+	
+		region_state:BUR = {
 			create_pop = {
 				culture = thai
 				size = 1534004
@@ -1288,30 +1308,7 @@
 		}
 	}
 	s:STATE_LAOS = {
-		region_state:LUA = {
-			create_pop = {
-				culture = lao
-				size = 216021
-			}
-			create_pop = {
-				culture = miao
-				size = 22348
-			}
-			create_pop = {
-				culture = khmu
-				size = 62100
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = lao
-				size = 11004
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = khmu
-				size = 4000
-			}
-		}
+		
 		region_state:SIA = {
 			create_pop = {
 				culture = lao
@@ -1375,9 +1372,36 @@
 				size = 11000
 			}
 		}
+	
+		region_state:BUR = {
+			create_pop = {
+				culture = lao
+				size = 216021
+			}
+			create_pop = {
+				culture = miao
+				size = 22348
+			}
+			create_pop = {
+				culture = khmu
+				size = 62100
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = lao
+				size = 11004
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = khmu
+				size = 4000
+			}
+		}
 	}
 	s:STATE_CHIANG_MAI = {
-		region_state:CMI = {
+		
+	
+		region_state:BUR = {
 			create_pop = {
 				culture = thai
 				size = 526096
@@ -1432,7 +1456,10 @@
 		}
 	}
 	s:STATE_TENASSERIM = {
-		region_state:BIC = {
+		
+		
+	
+		region_state:BUR = {
 			create_pop = {
 				culture = karen
 				size = 180800
@@ -1458,34 +1485,6 @@
 				culture = karen
 				size = 20000
 			}
-		}
-		region_state:SIA = {
-			create_pop = {
-				culture = malay
-				size = 184400
-			}
-			create_pop = {
-				culture = burmese
-				size = 36000
-			}
-			create_pop = {
-				culture = mon
-				size = 3480
-			}
-			create_pop = {
-				culture = karen
-				size = 60800
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = karen
-				size = 20000
-			}
-			create_pop = {
-				culture = thai
-				size = 44020
-			}
-
 		}
 	}
 	s:STATE_KACHIN = {
@@ -1541,31 +1540,7 @@
 				size = 30200
 			}
 		}
-		region_state:SHS = {
-			create_pop = {
-				culture = shan
-				size = 490100
-			}
-			create_pop = {
-				culture = shan
-				size = 40300
-				religion = animist
-			}
-			create_pop = {
-				culture = karen
-				size = 18900
-			}
-			create_pop = {
-				culture = karen
-				religion = animist
-				size = 48300
-			}
-			create_pop = {
-			#	pop_type = slaves
-				culture = shan
-				size = 30200
-			}
-		}
+		
 	}
 
 	s:STATE_MANDALAY = {
@@ -1701,11 +1676,11 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = ainu
-				size = 102
+				size = 69
 			}
 			create_pop = {
 				culture = japanese
-				size = 31102
+				size = 21079
 			}
 		}
 	}
@@ -1713,12 +1688,12 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 2374632
+				size = 1609418
 			}
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 917280
+				size = 621692
 			}
 		}
 	}
@@ -1726,12 +1701,12 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 4050072
+				size = 2744956
 			}
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 1123204
+				size = 761258
 			}
 		}
 	}
@@ -1739,12 +1714,12 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 4127776
+				size = 2797621
 			}
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 1745764
+				size = 1183201
 			}
 		}
 	}
@@ -1752,12 +1727,12 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 6178176
+				size = 4187290
 			}
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 1686204
+				size = 1142834
 			}
 		}
 	}
@@ -1765,20 +1740,20 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 3170167
+				size = 2148596
 			}
 			create_pop = {
 				culture = micronesian
-				size = 132
+				size = 89
 			}
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 1067036
+				size = 723188
 			}
 			create_pop = {
 				culture = han # nanfaren
-				size = 18712
+				size = 12684
 			}
 		}
 	}
@@ -1787,7 +1762,7 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 259181
+				size = 175661
 			}
 		}
 	}
@@ -1796,12 +1771,12 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 2024340
+				size = 1372006
 			}
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 744588
+				size = 504649
 			}
 		}
 	}
@@ -1809,12 +1784,12 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 1161416
+				size = 787157
 			}
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 352420
+				size = 238856
 			}
 		}
 	}

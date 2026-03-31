@@ -14,7 +14,7 @@ GER = {
 }
 
 GBR = { 
-	color = { 0.686 0.059 0.059 }
+	color = hsv{ 0.99  0.7  0.9 }
 
 	country_type = recognized
 
@@ -52,7 +52,7 @@ RUS = {
 }
 
 FRA = {
-	color = { 20  50  210 }
+	color = { 20 50 210 }
 
 	country_type = recognized
 
@@ -71,10 +71,12 @@ PRU = {
 
 	cultures = { north_german }
 	capital = STATE_BRANDENBURG
+
+	religion = orthodox
 }
 
 WES = {
-	color = { 5 85 5 }
+	color = { 56 90 38 }
 
 	country_type = recognized
 
@@ -83,6 +85,8 @@ WES = {
 	cultures = { north_german }
 	capital = STATE_WESTPHALIA
 	is_named_from_capital = yes
+
+	religion = protestant
 }
 
 POM = {
@@ -98,7 +102,7 @@ POM = {
 }
 
 AUS = {
-	color = { 211  220  240 }
+	color = { 211 220 240 }
 
 	country_type = recognized
 
@@ -108,8 +112,10 @@ AUS = {
 	capital = STATE_AUSTRIA
 
 	primary_unit_color = { 211 220 240 }
-	secondary_unit_color  = { 94 120 165 }
-	tertiary_unit_color = { 20 20 20 }
+	secondary_unit_color = { 211 220 240 }
+	tertiary_unit_color = { 211 220 240 }
+
+	religion = orthodox
 }
 
 USA = {
@@ -126,6 +132,8 @@ USA = {
 	secondary_unit_color = { 0 15 90 }
 	tertiary_unit_color = { 0 15 90 }
  
+
+	religion = orthodox
 }
 
 CSA = {
@@ -164,7 +172,7 @@ ASA = {
 LOU = {
 	color = { 53 52 144 }
 
-	country_type = recognized
+	country_type = colonial
 
 	tier = principality
 
@@ -213,6 +221,8 @@ JAP = {
 
 	cultures = { japanese }
 	capital = STATE_KANSAI
+
+	religion = protestant
 }
 
 ITA = {
@@ -330,7 +340,7 @@ FLA = {
 }
 
 IRE = {
-	color = { 112  150  105 }
+	color = { 112 150 105 }
 
 	country_type = recognized
 
@@ -338,6 +348,8 @@ IRE = {
 
 	cultures = { irish }
 	capital = STATE_LEINSTER
+
+	religion = protestant
 }
 
 NET = {
@@ -358,8 +370,10 @@ POR = {
 
 	tier = kingdom
 
-	cultures = { portuguese }
-	capital = STATE_ESTREMADURA
+	cultures = { portuguese brazilian }
+	capital = STATE_RIO_DE_JANEIRO #STATE_ESTREMADURA
+
+	religion = orthodox
 }
 
 SCO = {
@@ -445,6 +459,8 @@ SPA = {
 
 	cultures = { spanish }
 	capital = STATE_NEW_CASTILE
+
+	religion = orthodox
 }
 
 WLL = {
@@ -472,7 +488,7 @@ ANH = {
 }
 
 BAD = {
-	color = { 118  229  215 }
+	color = { 80 80 100 }
 
 	country_type = recognized
 
@@ -530,7 +546,7 @@ DZG = {
 }
 
 FRM = {
-	color = { 243  201  33 }
+	color = { 255  255  0 }
 
 	country_type = recognized
 
@@ -564,7 +580,7 @@ HAN = {
 }
 
 HES = {
-	color = { 146  108  146 }
+	color = { 250  250  250 }
 
 	country_type = recognized
 
@@ -622,7 +638,7 @@ MEC = {
 }
 
 NAS = {
-	color = { 107  94  169 }
+	color = { 255  129  0 }
 
 	country_type = recognized
 
@@ -644,7 +660,7 @@ OLD = {
 }
 
 SAX = {
-	color = { 155  147  180 }
+	color = { 50 21 250 }
 
 	country_type = recognized
 
@@ -656,7 +672,7 @@ SAX = {
 }
 
 WUR = {
-	color = { 111  162  128 }
+	color = { 35 52 48 }
 
 	country_type = recognized
 
@@ -2100,7 +2116,7 @@ DES = {
 DOM = {
 	color = { 93  194  122 }
 
-	country_type = recognized
+	country_type = colonial #recognized
 
 	tier = principality
 
@@ -2169,13 +2185,15 @@ ATL = {
 MEX = {
 	color = { 23 43 25 } 
 
-	country_type = recognized
+	country_type = colonial #recognized
  
 	tier = kingdom
 
 	cultures = { mexican }
 	capital = STATE_MEXICO
 	is_named_from_capital = yes
+
+	religion = protestant
 }
 
 MTC = {
@@ -2332,7 +2350,7 @@ UCA = {
 ARG = {
 	color = { 101  102  163 }
 
-	country_type = recognized
+	country_type = colonial #recognized
 
 	tier = kingdom
 
@@ -2365,7 +2383,7 @@ BRZ = {
 CHL = {
 	color = { 120 76 76 }
 
-	country_type = recognized
+	country_type = colonial #recognized
 
 	tier = kingdom
 
@@ -2376,7 +2394,7 @@ CHL = {
 CLM = {
 	color = { 204 153 153 }
 
-	country_type = recognized
+	country_type = colonial #recognized
 
 	tier = kingdom
 
@@ -2399,7 +2417,7 @@ ECU = {
 PEU = {
 	color = { 112 49 1 }
 
-	country_type = recognized
+	country_type = colonial #recognized
 
 	tier = kingdom
 
@@ -2433,7 +2451,7 @@ URU = {
 VNZ = {
 	color = { 100 100 90 }
 
-	country_type = recognized
+	country_type = colonial #recognized
 
 	tier = kingdom
 

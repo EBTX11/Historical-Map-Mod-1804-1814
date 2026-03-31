@@ -1,57 +1,54 @@
 ﻿POPS = {
 	s:STATE_SAN_SALVADOR = {
-		region_state:UCA = {
+		
+	
+		region_state:MEX = {
 			create_pop = {
 				culture = central_american
-				size = 428204
+				size = 298327
 			}
 		}
 	}
 	s:STATE_GUATEMALA = {
-		region_state:UCA = {
-			create_pop = {
-				culture = central_american
-				size = 164404
-			}
-			create_pop = {
-				culture = mayan
-				size = 312000
-			}
-		}
+		
 		region_state:GBR = {
 			create_pop = {
 				culture = afro_caribbean
-				size = 7104
+				size = 4709
 			}
 			create_pop = {
 				culture = british
-				size = 104
+				size = 69
+			}
+		}
+	
+		region_state:MEX = {
+			create_pop = {
+				culture = central_american
+				size = 114539
+			}
+			create_pop = {
+				culture = mayan
+				size = 217369
 			}
 		}
 	}
 	s:STATE_HONDURAS = {
-		region_state:UCA = {
+		
+	
+		region_state:MEX = {
 			create_pop = {
 				culture = central_american
-				size = 385204
+				size = 268369
 			}
 			create_pop = {
 				culture = miskito # Cape of Gracias a Dios Miskito
-				size = 3000
+				size = 2091
 			}
 		}
 	}
 	s:STATE_NICARAGUA = {
-		region_state:UCA = {
-			create_pop = {
-				culture = central_american
-				size = 284000
-			}
-			create_pop = {
-				culture = miskito # Miskito pop. across the 'borders'
-				size = 4000
-			}
-		}
+		
 		region_state:MKT = {
 			create_pop = {
 				culture = miskito # Tawira Miskito
@@ -80,12 +77,25 @@
 				size = 1000
 			}
 		}
-	}
-	s:STATE_COSTA_RICA = {
-		region_state:UCA = {
+	
+		region_state:MEX = {
 			create_pop = {
 				culture = central_american
-				size = 83992
+				size = 197861
+			}
+			create_pop = {
+				culture = miskito # Miskito pop. across the 'borders'
+				size = 2787
+			}
+		}
+	}
+	s:STATE_COSTA_RICA = {
+		
+	
+		region_state:MEX = {
+			create_pop = {
+				culture = central_american
+				size = 58534
 			}
 		}
 	}
@@ -148,7 +158,9 @@
 		}
 	}
 	s:STATE_SANTO_DOMINGO = {
-		region_state:HAI = {
+		
+	
+		region_state:DOM = {
 			create_pop = { # Haitians.
 				culture = afro_antillean
 				size = 4007
@@ -246,11 +258,11 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 19200
+				size = 12729
 			}
 			create_pop = {
 				culture = afro_caribbean
-				size = 100400
+				size = 66563
 			}
 		}
 	}
@@ -278,15 +290,15 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 34704
+				size = 23008
 			}
 			create_pop = {
 				culture = afro_caribbean
-				size = 234768
+				size = 155646
 			}
 			create_pop = {
 				culture = dutch
-				size = 396
+				size = 263
 			}
 		}
 		region_state:NET = {
@@ -330,11 +342,11 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = afro_caribbean
-				size = 358596
+				size = 237741
 			}
 			create_pop = {
 				culture = british
-				size = 23040
+				size = 15276
 			}
 		}
 	}

@@ -1,0 +1,38 @@
+# =========================
+# DEFAULT
+# =========================
+BASE: effect_starting_technology_tier_5_tech = yes
+
+# =========================
+# HMM
+# =========================
+
+# effect_starting_technology_tier_1_tech_hmm
+ 
+# effect_starting_technology_tier_2_tech_hmm
+  
+# effect_starting_technology_tier_3_tech_hmm
+
+# effect_starting_technology_tier_4_tech_hmm
+ 
+# =========================
+# VANILLA
+# =========================
+
+# effect_starting_technology_tier_1_tech
+
+# effect_starting_technology_tier_2_tech
+FRA
+GBR
+
+# effect_starting_technology_tier_3_tech
+ 
+# effect_starting_technology_tier_4_tech
+RUS
+PRU
+AUS
+USA
+
+# effect_starting_technology_tier_5_tech
+
+# effect_starting_technology_tier_6_tech 

@@ -1,0 +1,13 @@
+﻿CHARACTERS = {
+	c:NPU ?= {
+	}
+
+	
+	c:SPU ?= {
+	}
+
+
+	c:IQU ?= {
+	}
+
+}

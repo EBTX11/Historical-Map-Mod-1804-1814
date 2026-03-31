@@ -1,35 +1,278 @@
 
+INJECT:ITA = { 
+	dynamic_country_name = {
+		name = dyn_c_italian_napoleon
+		adjective = ITA_ADJ
+
+		is_main_tag_only = yes
+		priority = 15
+		
+		trigger = {
+			exists = c:FRA
+			c:FRA = {
+				has_diplomatic_pact = {
+					who = c:ITA
+					type = protectorate
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+DOM = { 
+	dynamic_country_name = {
+		name = dyn_c_DOM_viceroyalty
+		adjective = DOM_ADJ
+
+		is_main_tag_only = yes
+		priority = 15
+		
+		trigger = {
+			exists = c:SPA
+			c:SPA = {
+				has_diplomatic_pact = {
+					who = c:DOM
+					type = colony
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+INJECT:LIB = { 
+	dynamic_country_name = {
+		name = dyn_c_liberia_compagny
+		adjective = LIB_ADJ
+
+		is_main_tag_only = yes
+		priority = 15
+		
+		trigger = {
+			exists = c:USA
+			c:USA = {
+				has_diplomatic_pact = {
+					who = c:LIB
+					type = chartered_company
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+INJECT:LUC = { 
+	dynamic_country_name = {
+		name = dyn_c_lucca_napoleon
+		adjective = LUC_ADJ
+
+		is_main_tag_only = yes
+		priority = 15
+		
+		trigger = {
+			exists = c:FRA
+			c:FRA = {
+				has_diplomatic_pact = {
+					who = c:LUC
+					type = napoleonian_personal_union
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+INJECT:LOU = { 
+	dynamic_country_name = {
+		name = dyn_c_french_louisiana
+		adjective = LOU_ADJ
+
+		is_main_tag_only = yes
+		priority = 50
+		
+		trigger = {
+			exists = c:FRA
+			c:FRA = {
+				has_diplomatic_pact = {
+					who = c:LOU
+					type = colony
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+SAR = { 
+	dynamic_country_name = {
+		name = dyn_c_sardinia
+		adjective = SAR_ADJ
+		
+		is_main_tag_only = yes
+		priority = 2
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				NOT = { owns_entire_state_region = STATE_PIEDMONT }
+			}
+		}
+	}
+}
+  
+HND = { 
+	dynamic_country_name = {
+		name = dyn_c_maharata_confederation
+		adjective = HND_ADJ
+
+		possible = {
+			exists = c:HND
+			THIS = c:HND
+			trigger = {
+				game_date < 1900.1.1
+			}
+		}
+	}
+}
+INJECT:MEX = { 
+	dynamic_country_name = {
+		name = dyn_c_MEX_viceroyalty
+		adjective = MEX_ADJ
 
 
+		is_main_tag_only = yes
+		priority = 500
 
+		trigger = {
+			exists = c:SPA
+			c:SPA = {
+				has_diplomatic_pact = {
+					who = c:MEX
+					type = colony
+					#is_initiator = yes
+				}
+			}
+		}
+	}
+}
+CUB = { 
+	dynamic_country_name = {
+		name = dyn_c_CUB_viceroyalty
+		adjective = CUB_ADJ
 
+		is_main_tag_only = yes
+		priority = 5
+		
+		trigger = {
+			exists = c:SPA
+			c:SPA = {
+				has_diplomatic_pact = {
+					who = c:CUB
+					type = colony
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+INJECT:VNZ = { 
+	dynamic_country_name = {
+		name = dyn_c_VNZ_viceroyalty
+		adjective = VNZ_ADJ
 
+		is_main_tag_only = yes
+		priority = 5
+		
+		trigger = {
+			exists = c:SPA
+			c:SPA = {
+				has_diplomatic_pact = {
+					who = c:VNZ
+					type = colony
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+PEU = { 
+	dynamic_country_name = {
+		name = dyn_c_PEU_viceroyalty
+		adjective = PEU_ADJ
 
+		is_main_tag_only = yes
+		priority = 5
+		
+		trigger = {
+			exists = c:SPA
+			c:SPA = {
+				has_diplomatic_pact = {
+					who = c:PEU
+					type = colony
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+INJECT:ARG = { 
+	dynamic_country_name = {
+		name = dyn_c_ARG_viceroyalty
+		adjective = ARG_ADJ
 
+		is_main_tag_only = yes
+		priority = 5
+		
+		trigger = {
+			exists = c:SPA
+			c:SPA = {
+				has_diplomatic_pact = {
+					who = c:ARG
+					type = colony
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+CHL = { 
+	dynamic_country_name = {
+		name = dyn_c_CHL_viceroyalty
+		adjective = CHL_ADJ
 
+		is_main_tag_only = yes
+		priority = 5
+		
+		trigger = {
+			exists = c:SPA
+			c:SPA = {
+				has_diplomatic_pact = {
+					who = c:CHL
+					type = colony
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+INJECT:CLM = { 
+	dynamic_country_name = {
+		name = dyn_c_CGO_viceroyalty
+		adjective = CLM_ADJ
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		priority = 2
+		trigger = {
+			exists = c:SPA
+			c:SPA = {
+				has_diplomatic_pact = {
+					who = c:CLM
+					type = colony
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
 
 
 
@@ -57,7 +300,23 @@ INJECT:HUN = {
 }
 INJECT:AUS = {
 	dynamic_country_name = {
+		name = dyn_c_Austrian_Empire
+		adjective = AUS_ADJ
+
+		is_main_tag_only = yes
+		priority = 5
+	
+		trigger = {
+			scope:actor = {
+				OR = {
+					has_law = law_type:law_national_supremacy
+				}
+			}
+		}
+	}
+	dynamic_country_name = {
 		name = dyn_c_austria-hungary
+		adjective = AUS_ADJ
 
 		is_main_tag_only = yes
 		priority = 20
@@ -66,7 +325,7 @@ INJECT:AUS = {
 			c:AUS = {
 				has_diplomatic_pact = {
 					who = c:HUN
-					type = dual_monarchy
+					type = puppet
 					is_initiator = yes
 				}
 			}
@@ -93,21 +352,36 @@ INJECT:JAP = {
 } 
 INJECT:RUS = {
 	dynamic_country_name = {
-		name = dyn_c_Russian_ussr
+		name = dyn_c_Russian_Empire
 		adjective = RUS_ADJ
 
 		is_main_tag_only = yes
-		priority = 10
-		
-		trigger = {
-			scope:actor = {
-				OR = {
-					has_law = law_type:law_autocracy
-					has_law = law_type:law_council_republic
-				}
+		priority = 2
+
+		possible = {
+			exists = c:RUS
+			THIS = c:RUS
+			trigger = {
+				coa_absolute_monarchy_trigger = yes
 			}
 		}
 	}
+	# dynamic_country_name = {
+	# 	name = dyn_c_Russian_ussr
+	# 	adjective = RUS_ADJ
+
+	# 	is_main_tag_only = yes
+	# 	priority = 10
+		
+	# 	trigger = {
+	# 		scope:actor = {
+	# 			OR = {
+	# 				has_law = law_type:law_autocracy
+	# 				has_law = law_type:law_council_republic
+	# 			}
+	# 		}
+	# 	}
+	# }
 }
 INJECT:UKR = {
 	dynamic_country_name = {
@@ -387,21 +661,21 @@ INJECT:CHI = {
 		}
 	}
 }
-# INJECT:PER = { 
-# 	dynamic_country_name = {
-# 		name = dyn_c_persia
-# 		adjective = dyn_c_persia_adj
+INJECT:PER = { 
+	dynamic_country_name = {
+		name = dyn_c_persia
+		adjective = dyn_c_persia_adj
 		
-# 		is_main_tag_only = yes
-# 		priority = 0
+		is_main_tag_only = yes
+		priority = 0
 		
-# 		trigger = {
-# 			scope:actor = {
-# 				has_law = law_type:law_monarchy
-# 			}
-# 		}
-# 	}
-# } 
+		trigger = {
+			scope:actor = {
+				has_law = law_type:law_monarchy
+			}
+		}
+	}
+} 
 INJECT:GER = {
 	dynamic_country_name = {
 		name = dyn_c_German_Empire
@@ -497,6 +771,24 @@ INJECT:SUD = {
 	}
 }
 INJECT:POL = {
+	dynamic_country_name = {
+		name = dyn_c_poland_sub_fra
+		adjective = POL_ADJ
+
+		is_main_tag_only = yes
+		priority = 25
+		
+		trigger = {
+			exists = c:FRA
+			c:FRA = {
+				has_diplomatic_pact = {
+					who = c:POL
+					type = protectorate
+					is_initiator = yes
+				}
+			}
+		}
+	}
 	dynamic_country_name = {
 		name = dyn_c_poland
 		adjective = POL_ADJ
