@@ -518,6 +518,11 @@
 			country = c:TUS
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:HAI
+			type = colony
+		}
+
 
 		# protectorate
 

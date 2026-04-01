@@ -1281,7 +1281,13 @@ STATES = {
 		create_state = {
 			country = c:HAI
 			owned_provinces = {
-				xC6C663 x2FC1FC x0E35C0 x4FE008 xB0B001 x1A20A4 xEA2C2D
+				xC6C663 x2FC1FC x0E35C0 x4FE008 x1A20A4 xEA2C2D
+			}
+		}
+		create_state = {
+			country = c:DOM
+			owned_provinces = {
+				xB0B001
 			}
 		}
 		add_homeland = cu:afro_antillean

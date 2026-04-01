@@ -2163,7 +2163,7 @@ ALT = {
 HAI = {
 	color = { 139  179  207 }
 
-	country_type = recognized
+	country_type = colonial #recognized
 
 	tier = principality
 

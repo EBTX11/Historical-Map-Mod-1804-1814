@@ -3,7 +3,7 @@
 
 	tier = kingdom
 
-	country_type = unrecognized
+	country_type = colonial #unrecognized
 
 	cultures = { hawaiian }
 	religion = protestant
