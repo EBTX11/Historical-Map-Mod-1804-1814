@@ -37,14 +37,14 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_road_carts" "pm_no_equipment" "pm_increased_hardwood" }
+				activate_production_methods={ "pm_saw_mills" "pm_increased_hardwood" "pm_no_equipment" "pm_road_carts" }
 			}
 			create_building={
 				building="building_barrack"
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=3
+						levels=6
 					}
 				}
 				reserves=1
@@ -70,7 +70,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -85,7 +85,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_iron_frame_buildings" }
+				activate_production_methods={ "pm_wooden_buildings" }
 			}
 		}
 	}
@@ -111,7 +111,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=2
+						levels=3
 					}
 				}
 				reserves=1
@@ -126,7 +126,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_iron_frame_buildings" }
+				activate_production_methods={ "pm_wooden_buildings" }
 			}
 		}
 	}
@@ -149,7 +149,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -171,14 +171,18 @@
 	s:STATE_OKHOTSK={
 		region_state:RUS={
 			create_building={
-				building="building_port"
+				building="building_barrack"
 				add_ownership={
+					country={
+						country="c:RUS"
+						levels=2
+					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_anchorage" }
+				activate_production_methods={ "pm_no_organization" }
 			}
 			create_building={
-				building="building_barrack"
+				building="building_naval_base"
 				add_ownership={
 					country={
 						country="c:RUS"
@@ -186,7 +190,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_no_organization" }
+				activate_production_methods={ "pm_no_naval_theory" }
 			}
 		}
 	}
@@ -197,7 +201,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1
@@ -229,7 +233,7 @@
 				add_ownership={
 					country={
 						country="c:RUS"
-						levels=1
+						levels=2
 					}
 				}
 				reserves=1

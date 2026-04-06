@@ -1,6 +1,0 @@
-﻿CHARACTERS = {
-	c:AUS ?= {
-	}
-
-}
-

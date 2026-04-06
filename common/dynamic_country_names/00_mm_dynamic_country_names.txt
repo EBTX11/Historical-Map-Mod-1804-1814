@@ -1,4 +1,25 @@
+﻿LIB = {  
+	dynamic_country_name = {
+		name = dyn_c_LIB_01
+		adjective = LIB_ADJ
 
+		is_main_tag_only = yes
+		priority = 5
+		
+		trigger = {
+			has_game_rule = historical_map_mod_enabled
+			exists = c:USA
+			c:USA = {
+				has_diplomatic_pact = {
+					who = c:LIB
+					type = chartered_company
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+ 
 INJECT:ITA = { 
 	dynamic_country_name = {
 		name = dyn_c_italian_napoleon
@@ -33,27 +54,6 @@ DOM = {
 				has_diplomatic_pact = {
 					who = c:DOM
 					type = colony
-					is_initiator = yes
-				}
-			}
-		}
-	}
-}
-
-INJECT:LIB = { 
-	dynamic_country_name = {
-		name = dyn_c_liberia_compagny
-		adjective = LIB_ADJ
-
-		is_main_tag_only = yes
-		priority = 15
-		
-		trigger = {
-			exists = c:USA
-			c:USA = {
-				has_diplomatic_pact = {
-					who = c:LIB
-					type = chartered_company
 					is_initiator = yes
 				}
 			}
@@ -826,26 +826,26 @@ INJECT:POL = {
 		}
 	}
 }
-INJECT:MAD = {
-	dynamic_country_name = {
-		name = dyn_c_Madagascar
-		adjective = MAD_ADJ
+# INJECT:MAD = {
+# 	dynamic_country_name = {
+# 		name = dyn_c_Madagascar
+# 		adjective = MAD_ADJ
 
-		is_main_tag_only = yes
-		priority = 5
+# 		is_main_tag_only = yes
+# 		priority = 5
 		
-		trigger = {
-			exists = c:FRA
-			c:FRA = {
-				has_diplomatic_pact = {
-					who = c:MAD
-					type = colony
-					is_initiator = yes
-				}
-			}
-		}
-	}
-} 
+# 		trigger = {
+# 			exists = c:FRA
+# 			c:FRA = {
+# 				has_diplomatic_pact = {
+# 					who = c:MAD
+# 					type = colony
+# 					is_initiator = yes
+# 				}
+# 			}
+# 		}
+# 	}
+# } 
 INJECT:KOR = { # Korea 
 	dynamic_country_name = {
 		name = dyn_c_empire_of_korea

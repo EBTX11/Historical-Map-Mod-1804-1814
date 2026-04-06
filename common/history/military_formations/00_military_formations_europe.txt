@@ -922,7 +922,11 @@
 			hq_region = sr:region_north_africa
 			name = Arme_dAfrique
 
-			
+			combat_unit = {
+				type = unit_type:combat_unit_type_skirmish_infantry
+				state_region = s:STATE_ALGIERS
+				count = 2
+			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_skirmish_infantry
@@ -3292,6 +3296,56 @@
 		}
 	}
 
+	c:GRE ?= {
+		create_military_formation = { # Greeks
+			type = army
+			hq_region = sr:region_balkans
+			name = Elliniks_Strats
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_ATTICA
+				count = 2
+			}
+		}
+
+		create_military_formation = { # Bavarians
+			type = army
+			hq_region = sr:region_balkans
+			name = Vasilikn_Vavarikn_Epikourikn_Sma
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_irregular_infantry
+				state_region = s:STATE_PELOPONNESE
+				count = 2
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_hussars
+				state_region = s:STATE_ATTICA
+				count = 1
+			}
+
+			combat_unit = {
+				type = unit_type:combat_unit_type_cannon_artillery
+				state_region = s:STATE_ATTICA
+				count = 1
+			}
+		}
+
+		create_military_formation = {
+			type = fleet
+			hq_region = sr:region_balkans
+			name = Vasilikn_Naftikn
+
+			combat_unit = { # Corvette Prinkips Maximilianos (ex Psara)
+				type = unit_type:combat_unit_type_frigate
+				state_region = s:STATE_WEST_AEGEAN_ISLANDS
+				count = 1
+			}
+		}
+	}
+
 	c:SER ?= {
 		create_military_formation = {
 			type = army
@@ -4275,7 +4329,7 @@
 			save_temporary_scope_as = north_general
 		}
 		scope:north_general ?= {
-# # # # transfer_to_formation = scope:carlist_north_army (FIXED: Orphaned link) (FIXED: Orphaned link) (FIXED: Orphaned link) (FIXED: Orphaned link)
+# transfer_to_formation = scope:carlist_north_army (FIXED: Orphaned link)
 		}
 		create_character = {
 			template = SPC_rafael_maroto_template
@@ -4283,7 +4337,7 @@
 			save_temporary_scope_as = north_general_two
 		}
 		scope:north_general_two ?= {
-# # # # transfer_to_formation = scope:carlist_north_army (FIXED: Orphaned link) (FIXED: Orphaned link) (FIXED: Orphaned link) (FIXED: Orphaned link)
+# transfer_to_formation = scope:carlist_north_army (FIXED: Orphaned link)
 		}
 		# Army of Maestrazgo
 		create_military_formation = {
@@ -4320,7 +4374,7 @@
 			save_temporary_scope_as = centre_general
 		}
 		scope:centre_general ?= {
-# # # # transfer_to_formation = scope:carlist_centre_army (FIXED: Orphaned link) (FIXED: Orphaned link) (FIXED: Orphaned link) (FIXED: Orphaned link)
+# transfer_to_formation = scope:carlist_centre_army (FIXED: Orphaned link)
 		}
 
 		# Army of Catalonia
@@ -4348,7 +4402,7 @@
 			save_temporary_scope_as = catalonia_general
 		}
 		scope:catalonia_general ?= {
-# # # # transfer_to_formation = scope:carlist_catalonia_army (FIXED: Orphaned link) (FIXED: Orphaned link) (FIXED: Orphaned link) (FIXED: Orphaned link)
+# transfer_to_formation = scope:carlist_catalonia_army (FIXED: Orphaned link)
 		}
 	}
 }

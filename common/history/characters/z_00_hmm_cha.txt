@@ -1,0 +1,112 @@
+﻿CHARACTERS = {  
+	c:FRA ?= { 
+        create_character = {
+            template =  bonaparte_character_template
+			ruler = yes
+		} 
+	}
+	c:SPN ?= { 
+        create_character = {
+            template =  bonaparte_2_character_template
+			ruler = yes
+		} 
+	}
+	# c:NET ?= { 
+    #     create_character = {
+    #         template =  bonaparte_3_character_template
+	# 		ruler = yes
+	# 	} 
+	# }
+	c:WES ?= { 
+        create_character = {
+            template =  bonaparte_4_character_template
+			ruler = yes
+		} 
+	} 
+	c:GBR ?= {  
+        create_character = {
+            template =  hanover_character_template
+			ruler = yes
+		}
+	}
+	c:RUS ?= {
+        create_character = {
+            template =  romanov_1_character_template
+			ruler = yes
+		}
+	}
+	c:AUS ?= {
+        create_character = {
+            template =  habsburg_lorraine_character_template
+			ruler = yes
+		}
+	} 
+	c:PRU ?= {
+        create_character = {
+            template =  hohenzollern_character_template
+			ruler = yes
+		}
+	}  
+	c:USA ?= {
+        create_character = {
+            template =  jefferson_character_template
+			ruler = yes
+		}
+	} 
+	c:SPA ?= {
+        create_character = {
+            template = bourbon_character_template
+			ruler = yes
+		}
+	} 
+	c:POR ?= {
+        create_character = {
+            template = braganza_character_template
+			ruler = yes
+		}
+	} 
+	c:SWE ?= {
+        create_character = {
+            template = holstein_gottorp_character_template
+			ruler = yes
+		}
+	}  
+
+	c:BAV ?= {
+        create_character = {
+            template = wittelsbach_character_template
+			ruler = yes
+		}
+	}  
+	c:SIC ?= {
+        create_character = {
+            template = bourbon_character_template
+			ruler = yes
+		}
+	}  
+	c:PAP ?= {
+        create_character = {
+            template = chiaramonti_character_template
+			ruler = yes
+		}
+	}  
+	c:CHI ?= {
+        create_character = {
+            template = aisin_gioro_character_template
+			ruler = yes
+		}
+	}  
+	c:JAP ?= {
+        create_character = {
+            template = tokugawa_character_template
+			ruler = yes
+		}
+	} 
+	c:TUR ?= {
+        create_character = {
+            template = osmanoglu_character_template
+			ruler = yes
+		}
+	}  
+}
+

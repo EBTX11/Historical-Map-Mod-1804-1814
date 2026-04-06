@@ -1830,15 +1830,15 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = azerbaijani
-				size = 13762
+				size = 11345
 			}
 			create_pop = {
 				culture = kurdish
-				size = 5667
+				size = 4672
 			}
 			create_pop = {
 				culture = armenian
-				size = 8906
+				size = 7342
 			}
 		}
 	}

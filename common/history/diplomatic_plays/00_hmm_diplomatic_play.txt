@@ -1,0 +1,99 @@
+﻿DIPLOMATIC_PLAYS = {  
+	c:FRA ?= {
+		create_diplomatic_play = {
+			name = supremacie_francaise
+ 
+			war = yes 
+			type = dp_humiliation
+			target_country = c:GBR  
+            add_initiator_backers = { c:SPN }
+            add_initiator_backers = { c:BAV }
+            add_initiator_backers = { c:SAX }
+            add_initiator_backers = { c:POL }
+            add_initiator_backers = { c:ITA }
+ 
+            add_target_backers = { c:GBR }
+            add_target_backers = { c:POR }
+            add_target_backers = { c:AUS }
+    
+			#FRA
+			add_war_goal = {
+				holder = c:FRA 
+				type = humiliation
+				target_country = c:SPA
+				#target_state = s:STATE_WESTERN_SERBIA.region_state:TUR  
+			}     
+			add_war_goal = {
+				holder = c:FRA 
+				type = humiliation
+				target_country = c:AUS
+				#target_state = s:STATE_WESTERN_SERBIA.region_state:TUR  
+			}    
+			 
+			#SPN
+			add_war_goal = {
+				holder = c:SPN 
+				type = annex_country
+				target_country = c:SPA
+				#target_state = s:STATE_WESTERN_SERBIA.region_state:TUR  
+			}     
+
+			#SPA
+			add_war_goal = {
+				holder = c:SPA
+				type = annex_country
+				target_country = c:SPN
+				#target_state = s:STATE_WESTERN_SERBIA.region_state:TUR  
+			}    
+
+			# add_war_goal = {
+			# 	holder = c:FRA
+			# 	type = liberate_subject 
+			# 	target_country = c:MEX   
+			# }   
+			# add_war_goal = {
+			# 	holder = c:FRA
+			# 	type = liberate_subject 
+			# 	target_country = c:CLM   
+			# }   
+			# add_war_goal = {
+			# 	holder = c:FRA
+			# 	type = liberate_subject 
+			# 	target_country = c:VNZ   
+			# }   
+			# add_war_goal = {
+			# 	holder = c:FRA
+			# 	type = liberate_subject 
+			# 	target_country = c:PEU   
+			# }   
+			# add_war_goal = {
+			# 	holder = c:FRA
+			# 	type = liberate_subject 
+			# 	target_country = c:CHL   
+			# }   
+			# add_war_goal = {
+			# 	holder = c:FRA
+			# 	type = liberate_subject 
+			# 	target_country = c:ARG   
+			# }    
+			add_war_goal = {
+				holder = c:AUS
+				type = return_state
+				target_country = c:FRA
+				target_state = s:STATE_CROATIA.region_state:FRA  
+			}
+			add_war_goal = {
+				holder = c:AUS
+				type = return_state
+				target_country = c:FRA
+				target_state = s:STATE_ISTRIA.region_state:FRA  
+			}
+			add_war_goal = {
+				holder = c:AUS
+				type = return_state
+				target_country = c:FRA
+				target_state = s:STATE_SLOVENIA.region_state:FRA  
+			}  
+		} 
+	} 
+}

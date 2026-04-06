@@ -1613,7 +1613,7 @@
 			create_pop = {
 				culture = mon
 				religion = animist
-				size = 1923
+				size = 1430
 			}
 
 		}
@@ -1622,25 +1622,25 @@
 		region_state:BIC = {
 			create_pop = {
 				culture = burmese
-				size = 100888
+				size = 75027
 			}
 			create_pop = {
 				culture = british
-				size = 432
+				size = 321
 			}
 			create_pop = {
 				culture = burmese
 				religion = sunni
-				size = 60000
+				size = 44620
 			}
 			create_pop = {
 				culture = bengali
-				size = 7996
+				size = 5946
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = burmese
-				size = 19000
+				size = 14129
 			}
 		}
 		region_state:KKI = {

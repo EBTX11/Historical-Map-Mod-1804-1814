@@ -164,7 +164,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_road_carts" "pm_no_hardwood" "pm_no_equipment" "pm_saw_mills" }
+				activate_production_methods={ "pm_road_carts" "pm_no_hardwood" "pm_no_equipment" "pm_simple_forestry" }
 			}
 			create_building={
 				building="building_construction_sector"
@@ -215,13 +215,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_wooden_buildings" }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-				}
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
 			}
 		}
 	}
@@ -318,6 +311,13 @@
 				reserves=1
 				activate_production_methods={ "default_building_vineyard" "pm_road_carts" }
 			}
+			create_building={
+				building="building_construction_sector"
+				add_ownership={
+				}
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}
 		}
 		region_state:ASD={
 		}
@@ -358,13 +358,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_wooden_buildings" }
-			}
-			create_building={
-				building="building_port"
-				add_ownership={
-				}
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
 			}
 		}
 	}

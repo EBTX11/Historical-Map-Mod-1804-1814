@@ -31,16 +31,16 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = north_italian
-				size = 2367188
+				size = 1936755
 			}
 			create_pop = {
 				culture = french
-				size = 93996
+				size = 76904
 			}
 			create_pop = {
 				culture = north_italian
 				religion = jewish
-				size = 2804
+				size = 2294
 			}
 		}
 	}
@@ -56,11 +56,11 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = maltese
-				size = 77694
+				size = 92155
 			}
 			create_pop = {
 				culture = british
-				size = 1852
+				size = 2196
 			}
 		}
 	}
@@ -70,7 +70,7 @@
 		region_state:ITA = {
 			create_pop = {
 				culture = south_italian
-				size = 451000
+				size = 368993
 			}
 		}
 		region_state:FRA = {
@@ -90,20 +90,20 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = corsican
-				size = 190540
+				size = 155893
 			}
 			create_pop = { # Ligurian
 				culture = north_italian
-				size = 502
+				size = 410
 			}
 			create_pop = { # Educated guess
 				culture = french
-				size = 16723
+				size = 13682
 			}
 			create_pop = {
 				culture = corsican
 				religion = protestant
-				size = 124
+				size = 101
 			}
 		}
 	}
@@ -153,15 +153,15 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = french
-				size = 92032
+				size = 75297
 			}
 			create_pop = {
 				culture = francoprovencal
-				size = 195568
+				size = 160007
 			}
 			create_pop = {
 				culture = north_italian
-				size = 181200
+				size = 148251
 			}
 		}
 	}
@@ -178,7 +178,7 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = north_italian
-				size = 472004
+				size = 386178
 			}
 		}
 		region_state:ITA = {
@@ -215,12 +215,12 @@
 		region_state:PAP = {
 			create_pop = {
 				culture = south_italian
-				size = 1333868
+				size = 1091327
 			}
 			create_pop = {
 				culture = south_italian
 				religion = jewish
-				size = 5596
+				size = 4578
 			}
 		}
 	
@@ -389,11 +389,11 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = catalan
-				size = 926100
+				size = 757704
 			}
 			create_pop = {
 				culture = spanish
-				size = 50010
+				size = 40916
 			}
 		}
 	}
@@ -429,27 +429,27 @@
 		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 2989
+				size = 3545
 			}
 			create_pop = {
 				culture = spanish
-				size = 1995
+				size = 2366
 			}
 			create_pop = {
 				culture = north_italian
-				size = 1465
+				size = 1737
 			}
 			create_pop = {
 				culture = sephardic
-				size = 1487
+				size = 1763
 			}
 			create_pop = {
 				culture = portuguese
-				size = 928
+				size = 1100
 			}
 			create_pop = {
 				culture = maltese
-				size = 275
+				size = 326
 			}
 		}
 	
@@ -666,23 +666,23 @@
 		region_state:RUS = {
 			create_pop = {
 				culture = turkish
-				size = 2072
+				size = 1708
 			}
 			create_pop = {
 				culture = ukrainian
-				size = 7286
+				size = 6006
 			}
 			create_pop = {
 				culture = bulgarian
-				size = 1619
+				size = 1334
 			}
 			create_pop = {
 				culture = greek
-				size = 80
+				size = 65
 			}
 			create_pop = {
 				culture = romanian
-				size = 6478
+				size = 5340
 			}
 		}
 	}
@@ -784,11 +784,11 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = slovene
-				size = 464400
+				size = 379956
 			}
 			create_pop = {
 				culture = south_german
-				size = 21388
+				size = 17498
 			}
 		}
 	}
@@ -798,15 +798,15 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = croat
-				size = 297796
+				size = 243646
 			}
 			create_pop = {
 				culture = serb
-				size = 80000
+				size = 65453
 			}
 			create_pop = {
 				culture = north_italian
-				size = 20004
+				size = 16366
 			}
 		}
 	}
@@ -816,24 +816,24 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = croat
-				size = 563592
+				size = 461112
 			}
 			create_pop = {
 				culture = czech
 				religion = catholic
-				size = 20004
+				size = 16366
 			}
 			create_pop = {
 				culture = hungarian
-				size = 28000
+				size = 22908
 			}
 			create_pop = {
 				culture = south_german
-				size = 40396
+				size = 33050
 			}
 			create_pop = {
 				culture = serb
-				size = 176000
+				size = 143997
 			}
 		}
 		region_state:AUS = {
@@ -888,23 +888,23 @@
 		region_state:FRA = {
 			create_pop = {
 				culture = north_italian
-				size = 197800
+				size = 161833
 			}
 			create_pop = {
 				culture = hungarian
-				size = 4000
+				size = 3272
 			}
 			create_pop = {
 				culture = slovene
-				size = 344504
+				size = 281861
 			}
 			create_pop = {
 				culture = south_german
-				size = 9792
+				size = 8011
 			}
 			create_pop = {
 				culture = croat
-				size = 124000
+				size = 101452
 			}
 		}
 	}

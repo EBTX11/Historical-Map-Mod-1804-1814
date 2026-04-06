@@ -458,9 +458,8 @@ SPA = {
 	tier = kingdom
 
 	cultures = { spanish }
-	capital = STATE_NEW_CASTILE
-
-	religion = orthodox
+	capital = STATE_GALICIA #STATE_NEW_CASTILE
+ 
 }
 
 WLL = {
