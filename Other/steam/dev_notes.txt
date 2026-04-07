@@ -5,8 +5,7 @@ Generaliser les charactere custom
 1871  -> s'occuper des personnage danqs scrambel
 1890 ok 
 1919 ok 
-
-
+ 
 Aranger le probleme de pronvince.png sur la region de belford
 1804 -> province dif
 1837 a faire
@@ -14,8 +13,7 @@ Aranger le probleme de pronvince.png sur la region de belford
 1871 a faire
 1890 -> province dif 
 1919 -> province dif
-
-
-
-Revoir certain mod regime nom drpeau ect le JE et decision event ect
-1890 -> ++++ -> plein de truc qui vont pas 
+  
+MODIFIER LISHTENSTEIN
+1890
+1919
