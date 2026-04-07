@@ -17,5 +17,5 @@ Aranger le probleme de pronvince.png sur la region de belford
 
 
 
-Revoir certain mod regime nom drpeau ect 
+Revoir certain mod regime nom drpeau ect le JE et decision event ect
 1890 -> ++++ -> plein de truc qui vont pas 
