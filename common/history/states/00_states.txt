@@ -8423,8 +8423,8 @@ STATES = {
 				x8955DF x712161 xFDE796 xFC9EFE x1E1DEF x23621B x5F2259 xB0E0A0 x6BF7B8
 			}
 		}
-		add_homeland = romanian
-		add_homeland = ukrainian
+		add_homeland = cu:romanian
+		add_homeland = cu:ukrainian
 		add_claim = c:RUS
 	}
 	s:STATE_ORYOL = {
