@@ -543,8 +543,6 @@
 		}
 	}
 	s:STATE_WASHINGTON={
-		region_state:NZP={
-		}
 		region_state:XXQ={
 		}
 	}

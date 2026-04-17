@@ -3,6 +3,74 @@
 		region_state:CHC = {
 			create_pop = {
 				culture = north_caucasian
+				size = 101388
+			}
+			create_pop = {
+				culture = sephardic
+				size = 1816
+			}
+			create_pop = {
+				culture = armenian
+				size = 626
+			}
+			create_pop = {
+				culture = kazak
+				size = 5035
+			}
+			create_pop = {
+				culture = russian
+				size = 8254
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 713
+			}
+			create_pop = {
+				culture = persian
+				size = 1144
+			}
+			create_pop = {
+				culture = chechen
+				size = 2426
+			}
+		}
+		region_state:E14 = {
+			create_pop = {
+				culture = north_caucasian
+				size = 40555
+			}
+			create_pop = {
+				culture = sephardic
+				size = 727
+			}
+			create_pop = {
+				culture = armenian
+				size = 251
+			}
+			create_pop = {
+				culture = kazak
+				size = 2014
+			}
+			create_pop = {
+				culture = russian
+				size = 3302
+			}
+			create_pop = {
+				culture = ukrainian
+				size = 285
+			}
+			create_pop = {
+				culture = persian
+				size = 458
+			}
+			create_pop = {
+				culture = chechen
+				size = 971
+			}
+		}
+		region_state:E19 = {
+			create_pop = {
+				culture = north_caucasian
 				size = 81111
 			}
 			create_pop = {
@@ -20,74 +88,6 @@
 			create_pop = {
 				culture = russian
 				size = 6604
-			}
-			create_pop = {
-				culture = ukrainian
-				size = 570
-			}
-			create_pop = {
-				culture = persian
-				size = 915
-			}
-			create_pop = {
-				culture = chechen
-				size = 1941
-			}
-		}
-		region_state:E14 = {
-			create_pop = {
-				culture = north_caucasian
-				size = 60833
-			}
-			create_pop = {
-				culture = sephardic
-				size = 1090
-			}
-			create_pop = {
-				culture = armenian
-				size = 376
-			}
-			create_pop = {
-				culture = kazak
-				size = 3021
-			}
-			create_pop = {
-				culture = russian
-				size = 4953
-			}
-			create_pop = {
-				culture = ukrainian
-				size = 428
-			}
-			create_pop = {
-				culture = persian
-				size = 686
-			}
-			create_pop = {
-				culture = chechen
-				size = 1456
-			}
-		}
-		region_state:E19 = {
-			create_pop = {
-				culture = north_caucasian
-				size = 81110
-			}
-			create_pop = {
-				culture = sephardic
-				size = 1453
-			}
-			create_pop = {
-				culture = armenian
-				size = 501
-			}
-			create_pop = {
-				culture = kazak
-				size = 4028
-			}
-			create_pop = {
-				culture = russian
-				size = 6603
 			}
 			create_pop = {
 				culture = ukrainian
@@ -129,7 +129,7 @@
 			}
 			create_pop = {
 				culture = persian
-				size = 458
+				size = 457
 			}
 			create_pop = {
 				culture = chechen

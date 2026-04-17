@@ -96,4 +96,89 @@
 			}  
 		} 
 	} 
+	c:RUS ?= {
+		create_diplomatic_play = {
+			name = supremacie_francaise
+ 
+			war = yes 
+			type = dp_humiliation
+			target_country = c:PER  
+            add_initiator_backers = { c:E16 } 
+            add_target_backers = { c:TUR } 
+            add_target_backers = { c:CIR } 
+            add_target_backers = { c:E19 }  
+     
+			#SPN
+			add_war_goal = {
+				holder = c:RUS 
+				type = annex_country
+				target_country = c:E17
+				#target_state = s:STATE_WESTERN_SERBIA.region_state:TUR  
+			}     
+			add_war_goal = {
+				holder = c:RUS 
+				type = annex_country
+				target_country = c:E19
+				#target_state = s:STATE_WESTERN_SERBIA.region_state:TUR  
+			}      
+			# add_war_goal = {
+			# 	holder = c:AUS
+			# 	type = return_state
+			# 	target_country = c:FRA
+			# 	target_state = s:STATE_CROATIA.region_state:FRA  
+			# }
+
+			add_war_goal = {
+				holder = c:TUR
+				type = humiliation
+				target_country = c:RUS 
+			}  
+			add_war_goal = {
+				holder = c:PER
+				type = humiliation
+				target_country = c:RUS 
+			}  
+
+			add_war_goal = {
+				holder = c:RUS
+				type = liberate_subject 
+				target_country = c:E07   
+			}   
+			add_war_goal = {
+				holder = c:RUS
+				type = liberate_subject 
+				target_country = c:E08   
+			}   
+			add_war_goal = {
+				holder = c:RUS
+				type = liberate_subject 
+				target_country = c:E09   
+			}   
+			add_war_goal = {
+				holder = c:RUS
+				type = liberate_subject 
+				target_country = c:E10   
+			}   
+			add_war_goal = {
+				holder = c:RUS
+				type = liberate_subject 
+				target_country = c:E11   
+			}   
+			add_war_goal = {
+				holder = c:RUS
+				type = liberate_subject 
+				target_country = c:E12   
+			}   
+			add_war_goal = {
+				holder = c:RUS
+				type = liberate_subject 
+				target_country = c:E15   
+			}   
+			add_war_goal = {
+				holder = c:RUS
+				type = liberate_subject 
+				target_country = c:E14   
+			}
+		} 
+	} 
 }

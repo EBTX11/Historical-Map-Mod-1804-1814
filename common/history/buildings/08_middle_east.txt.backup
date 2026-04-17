@@ -2813,69 +2813,6 @@
 		}
 	}
 	s:STATE_KARS={
-		region_state:E07={
-			create_building={
-				building="building_livestock_ranch"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:E07"
-						levels=1
-						region="STATE_KARS"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_unrefrigerated" "pm_simple_ranch" "pm_standard_fences" "pm_open_air_stockyards" }
-			}
-			create_building={
-				building="building_tea_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:E07"
-						levels=1
-						region="STATE_KARS"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "default_building_tea_plantation" "slave_exploitation_tea" "pm_road_carts" }
-			}
-			create_building={
-				building="building_wheat_farm"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:E07"
-						levels=1
-						region="STATE_KARS"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_citrus_orchards" "pm_tools" }
-			}
-			create_building={
-				building="building_barrack"
-				add_ownership={
-					country={
-						country="c:E07"
-						levels=10
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_no_organization" }
-			}
-			create_building={
-				building="building_government_administration"
-				add_ownership={
-					country={
-						country="c:E07"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_simple_organization" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
-			}
-		}
 		region_state:TUR={
 			create_building={
 				building="building_livestock_ranch"
@@ -2937,6 +2874,32 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_simple_organization" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
+			}
+		}
+		region_state:RUS={
+			create_building={
+				building="building_tea_plantation"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:RUS"
+						levels=1
+						region="STATE_YAROSLAVL"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "worker_exploitation_tea" }
+			}
+			create_building={
+				building="building_barrack"
+				add_ownership={
+					country={
+						country="c:RUS"
+						levels=1
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_no_organization" }
 			}
 		}
 	}

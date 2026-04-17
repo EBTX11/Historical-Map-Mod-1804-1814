@@ -261,16 +261,12 @@
 	}
 	# Spanish numbers are based off slightly upscaled numbers from the census of 1833, assuming a 0.3% growth rate
 	s:STATE_NEW_CASTILE = {
-		region_state:SPA = {
-			create_pop = {
-				culture = spanish
-				size = 263143
-			}
-		}
+		
+	
 		region_state:SPN = {
 			create_pop = {
 				culture = spanish
-				size = 1315715
+				size = 1578858
 			}
 		}
 	}
@@ -294,79 +290,94 @@
 		region_state:SPA = {
 			create_pop = {
 				culture = asturleonese
-				size = 728876
+				size = 364438
 			}
 			create_pop = {
 				culture = spanish
-				size = 72246
+				size = 36123
 			}
+			# Galician-Asturian (Eonavia)
 			create_pop = {
 				culture = galician
-				size = 76004
+				size = 38002
+			}
+		}
+	
+		region_state:SPN = {
+			create_pop = {
+				culture = asturleonese
+				size = 364438
+			}
+			create_pop = {
+				culture = spanish
+				size = 36123
+			}
+			# Galician-Asturian (Eonavia)
+			create_pop = {
+				culture = galician
+				size = 38002
 			}
 		}
 	}
 	s:STATE_OLD_CASTILE = {
-		region_state:SPA = {
-			create_pop = {
-				culture = spanish
-				size = 114005
-			}
-			create_pop = {
-				culture = asturleonese
-				size = 1822
-			}
-		}
+		
+	
 		region_state:SPN = {
 			create_pop = {
 				culture = spanish
-				size = 1140053
+				size = 1254058
 			}
+			# Montañés
 			create_pop = {
 				culture = asturleonese
-				size = 18218
+				size = 20040
 			}
 		}
 	}
 	s:STATE_BASQUE_COUNTRY = {
-		region_state:SPN = {
+		# 287.530 in Basque Country, 230.925 in Navarre
+		# Spanish/Basque split based on adjusted estimates by Ladislao de Velasco 1866-1868
+		
+	
+		region_state:SPA = {
 			create_pop = {
 				culture = spanish
-				size = 458006
+				size = 229003
 			}
 			create_pop = {
 				culture = basque
-				size = 588274
+				size = 294137
+			}
+		}
+		region_state:SPN = {
+			create_pop = {
+				culture = spanish
+				size = 229003
+			}
+			create_pop = {
+				culture = basque
+				size = 294137
 			}
 		}
 	}
 	s:STATE_ARAGON = {
-		region_state:SPA = {
-			create_pop = {
-				culture = spanish
-				size = 70816
-			}
-			create_pop = {
-				culture = catalan
-				size = 5491
-			}
-			create_pop = {
-				culture = aragonese
-				size = 39068
-			}
-		}
+		
+		# Maestrazgo + about another 50k moved here for gameplay reasons
+		
+	
 		region_state:SPN = {
 			create_pop = {
 				culture = spanish
-				size = 318670
+				size = 389486
 			}
 			create_pop = {
 				culture = catalan
-				size = 24711
+				size = 30202
 			}
+			# Population of most of Huseca subregion
 			create_pop = {
 				culture = aragonese
-				size = 175806
+				size = 214874
 			}
 		}
 	}
@@ -399,118 +410,67 @@
 		}
 	}
 	s:STATE_LOWER_ANDALUSIA = {
-		region_state:SPA = {
-			create_pop = {
-				culture = spanish
-				size = 405330
-			}
-		}
+		
+	
 		region_state:SPN = {
 			create_pop = {
 				culture = spanish
-				size = 810661
+				size = 1215991
 			}
 		}
 	}
 	s:STATE_UPPER_ANDALUSIA = {
-		region_state:GBR = {
-			create_pop = {
-				culture = spanish
-				size = 182973
-			}
-			create_pop = {
-				culture = british
-				size = 273
-			}
-			create_pop = {
-				culture = north_italian
-				size = 133
-			}
-			create_pop = {
-				culture = sephardic
-				size = 135
-			}
-			create_pop = {
-				culture = portuguese
-				size = 84
-			}
-			create_pop = {
-				culture = maltese
-				size = 25
-			}
-		}
 		region_state:SPA = {
 			create_pop = {
 				culture = spanish
-				size = 1097838
+				size = 1188141
 			}
+		}
+		region_state:GBR = {
 			create_pop = {
 				culture = british
-				size = 1636
+				size = 3545
+			}
+			create_pop = {
+				culture = spanish
+				size = 2366
 			}
 			create_pop = {
 				culture = north_italian
-				size = 802
+				size = 1737
 			}
 			create_pop = {
 				culture = sephardic
-				size = 814
+				size = 1763
 			}
 			create_pop = {
 				culture = portuguese
-				size = 508
+				size = 1100
 			}
 			create_pop = {
 				culture = maltese
-				size = 151
+				size = 326
 			}
 		}
+	
 		region_state:SPN = {
 			create_pop = {
 				culture = spanish
-				size = 1097837
-			}
-			create_pop = {
-				culture = british
-				size = 1636
-			}
-			create_pop = {
-				culture = north_italian
-				size = 802
-			}
-			create_pop = {
-				culture = sephardic
-				size = 814
-			}
-			create_pop = {
-				culture = portuguese
-				size = 508
-			}
-			create_pop = {
-				culture = maltese
-				size = 150
+				size = 1188141
 			}
 		}
 	}
 	s:STATE_EXTREMADURA = {
-		region_state:SPA = {
-			create_pop = {
-				culture = spanish
-				size = 84696
-			}
-			create_pop = {
-				culture = asturleonese
-				size = 7365
-			}
-		}
+		
+	
 		region_state:SPN = {
 			create_pop = {
 				culture = spanish
-				size = 423483
+				size = 508179
 			}
 			create_pop = {
 				culture = asturleonese
-				size = 36824
+				size = 44189
 			}
 		}
 	}
@@ -527,7 +487,9 @@
 		}
 	}
 	s:STATE_MURCIA = {
-		region_state:SPA = {
+		
+	
+		region_state:SPN = {
 			create_pop = {
 				culture = spanish
 				size = 464203
@@ -539,32 +501,20 @@
 		}
 	}
 	s:STATE_LEON = {
-		region_state:SPA = {
-			create_pop = {
-				culture = spanish
-				size = 104010
-			}
-			create_pop = {
-				culture = asturleonese
-				size = 149158
-			}
-			create_pop = {
-				culture = galician
-				size = 4001
-			}
-		}
+		
+	
 		region_state:SPN = {
 			create_pop = {
 				culture = spanish
-				size = 156014
+				size = 260024
 			}
 			create_pop = {
 				culture = asturleonese
-				size = 223736
+				size = 372894
 			}
 			create_pop = {
 				culture = galician
-				size = 6002
+				size = 10003
 			}
 		}
 	}

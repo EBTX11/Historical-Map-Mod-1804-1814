@@ -120,7 +120,7 @@
 		region_state:ASD = {
 			create_pop = {
 				culture = aborigine
-				size = 49038
+				size = 49037
 			}
 			create_pop = {
 				culture = australian
@@ -130,21 +130,21 @@
 		region_state:E02 = {
 			create_pop = {
 				culture = aborigine
-				size = 9678
+				size = 10969
 			}
 			create_pop = {
 				culture = australian
-				size = 654
+				size = 741
 			}
 		}
 		region_state:E03 = {
 			create_pop = {
 				culture = aborigine
-				size = 12259
+				size = 10969
 			}
 			create_pop = {
 				culture = australian
-				size = 828
+				size = 741
 			}
 		}
 		region_state:E05 = {

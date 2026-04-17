@@ -1,4 +1,164 @@
-﻿
+﻿E20 = {
+    color = { 142 176 86 }
+    country_type = unrecognized
+    tier = kingdom
+    cultures = { north_caucasian }
+    capital = STATE_DAGESTAN
+    religion = sunni
+}
+E19 = {
+    color = { 164 111 126 }
+    country_type = unrecognized
+    tier = kingdom
+    cultures = { north_caucasian }
+    capital = STATE_STAVROPOL
+    religion = sunni
+}
+E18 = {
+    color = { 137 94 187 }
+    country_type = unrecognized
+    tier = kingdom
+    cultures = { north_caucasian }
+    capital = STATE_GREATER_CAUCASUS
+    religion = sunni
+}
+E17 = {
+    color = { 135 176 176 }
+    country_type = unrecognized
+    tier = kingdom
+    cultures = { north_caucasian georgian armenian }
+    capital = STATE_GREATER_CAUCASUS
+    religion = sunni
+}
+E16 = {
+    color = { 56 189 94 }
+    country_type = unrecognized
+    tier = kingdom
+    cultures = { north_caucasian georgian armenian }
+    capital = STATE_GREATER_CAUCASUS
+    religion = sunni
+}
+E15 = {
+    color = { 150 66 73 }
+    country_type = unrecognized
+    tier = kingdom
+    cultures = { north_caucasian }
+    capital = STATE_AZERBAIJAN
+    religion = sunni
+}
+E14 = {
+    color = { 209 110 70 }
+    country_type = unrecognized
+    tier = kingdom
+    cultures = { north_caucasian }
+    capital = STATE_AZERBAIJAN
+    religion = sunni
+}
+E13 = {
+    color = { 0 77 70 }
+    country_type = unrecognized
+    tier = kingdom
+    cultures = { north_caucasian }
+    capital = STATE_AZERBAIJAN
+    religion = sunni
+}
+E12 = {
+    color = { 218 135 150 }
+    country_type = unrecognized
+    tier = kingdom
+    cultures = { north_caucasian }
+    capital = STATE_AZERBAIJAN
+    religion = sunni
+}
+E11 = {
+    color = { 151 147 66 }
+    country_type = unrecognized
+    tier = kingdom
+    cultures = { north_caucasian }
+    capital = STATE_AZERBAIJAN
+    religion = sunni
+}
+E10 = {
+    color = { 116 57 152 }
+    country_type = unrecognized
+    tier = kingdom
+    cultures = { north_caucasian }
+    capital = STATE_AZERBAIJAN
+    religion = sunni
+}
+E09 = {
+    color = { 0 209 53 }
+    country_type = unrecognized
+    tier = kingdom
+    cultures = { north_caucasian }
+    capital = STATE_AZERBAIJAN
+    religion = sunni
+}
+E08 = {
+    color = { 162 209 53 }
+    country_type = unrecognized
+    tier = kingdom
+    cultures = { north_caucasian }
+    capital = STATE_AZERBAIJAN
+    religion = sunni
+}
+E07 = {
+    color = { 96 186 175 }
+    country_type = unrecognized
+    tier = kingdom
+    cultures = { north_caucasian }
+    capital = STATE_AZERBAIJAN
+    religion = sunni
+}
+E06 = {
+	color = { 250 249 245 }
+    country_type = decentralized
+    tier = kingdom
+    cultures = { aborigine }
+    capital = STATE_QUEENSLAND
+    religion = animist
+}
+E05 = {
+	color = { 250 249 245 }
+    country_type = decentralized
+    tier = kingdom
+    cultures = { aborigine }
+    capital = STATE_QUEENSLAND
+    religion = animist
+}
+E04 = {
+	color = { 250 249 245 }
+    country_type = decentralized
+    tier = kingdom
+    cultures = { aborigine }
+    capital = STATE_QUEENSLAND
+    religion = animist
+}
+E03 = {
+	color = { 250 249 245 }
+    country_type = decentralized
+    tier = kingdom
+    cultures = { aborigine }
+    capital = STATE_NEW_SOUTH_WALES
+    religion = animist
+}
+E02 = {
+	color = { 250 249 245 }
+    country_type = decentralized
+    tier = kingdom
+    cultures = { aborigine }
+    capital = STATE_NEW_SOUTH_WALES
+    religion = animist
+}
+E01 = {
+	color = { 250 249 245 }
+    country_type = decentralized
+    tier = kingdom
+    cultures = { aborigine }
+    capital = STATE_NEW_SOUTH_WALES
+    religion = animist
+}
+
 NAP = {
 	color = { 103 17 86 }
 	

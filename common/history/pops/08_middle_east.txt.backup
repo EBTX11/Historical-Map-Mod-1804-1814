@@ -1789,64 +1789,56 @@
 		}
 	}
 	s:STATE_KARS = {
-		region_state:E07 = {
-			create_pop = {
-				culture = turkish
-				size = 17429
-			}
-			create_pop = {
-				culture = georgian
-				size = 9400
-			}
-			create_pop = {
-				culture = kurdish
-				size = 5621
-			}
-			create_pop = {
-				culture = armenian
-				size = 10241
-			}
-			create_pop = {
-				culture = greek
-				size = 4286
-			}
-			create_pop = {
-				culture = north_caucasian
-				size = 657
-			}
-			create_pop = {
-				culture = azerbaijani
-				size = 3241
-			}
-		}
 		region_state:TUR = {
 			create_pop = {
 				culture = turkish
-				size = 43571
+				size = 61000
 			}
 			create_pop = {
 				culture = georgian
-				size = 23500
+				religion = sunni
+				size = 27000
+
+			}
+			create_pop = {
+				culture = georgian
+				size = 4500
 			}
 			create_pop = {
 				culture = kurdish
-				size = 14051
+				size = 15000
 			}
 			create_pop = {
 				culture = armenian
-				size = 25601
+				size = 28500
 			}
 			create_pop = {
 				culture = greek
-				size = 10714
+				size = 15000
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = north_caucasian
-				size = 1643
+				size = 2300
 			}
+			create_pop = {
+				pop_type = slaves
+				culture = georgian
+				size = 1400
+			}
+		}
+		region_state:RUS = {
 			create_pop = {
 				culture = azerbaijani
-				size = 8104
+				size = 11345
+			}
+			create_pop = {
+				culture = kurdish
+				size = 4672
+			}
+			create_pop = {
+				culture = armenian
+				size = 7342
 			}
 		}
 	}

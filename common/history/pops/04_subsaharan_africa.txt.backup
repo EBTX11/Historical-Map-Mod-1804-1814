@@ -2245,124 +2245,79 @@
 		}
 	}
 	s:STATE_SOUTH_CAMEROON = {
-		region_state:DLA = {
+		region_state:SIL = {
 			create_pop = {
 				culture = british
-				size = 7
+				size = 42
 			}
 			create_pop = {
 				culture = fang
-				size = 66537
+				religion = protestant
+				size = 510
+			}
+			create_pop = {
+				culture = fang
+				size = 515
 			}
 			create_pop = {
 				culture = equatorial_bantu
-				size = 133816
+				size = 4510
 			}
 			create_pop = {
 				culture = afro_caribbean
-				size = 161
+				size = 1021
+			}
+		}
+		region_state:POR = {
+			# ~16,000 in 1841
+			create_pop = {
+				pop_type = slaves
+				culture = fang
+				size = 4376
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = bakongo
-				size = 575
+				size = 3644
 			}
 			create_pop = {
 				culture = afro_brazilian
-				size = 472
+				size = 2988
 			}
 			create_pop = {
 				culture = portuguese
-				size = 59
+				size = 372
 			}
 		}
 		region_state:FNG = {
 			create_pop = {
-				culture = british
-				size = 33
-			}
-			create_pop = {
 				culture = fang
-				size = 332685
+				size = 388000
 			}
 			create_pop = {
 				culture = equatorial_bantu
-				size = 669080
+				size = 149992
 			}
 			create_pop = {
-				culture = afro_caribbean
-				size = 806
+				pop_type = slaves
+				culture = fang
+				size = 28000
 			}
 			create_pop = {
-				culture = bakongo
-				size = 2877
-			}
-			create_pop = {
-				culture = afro_brazilian
-				size = 2359
-			}
-			create_pop = {
-				culture = portuguese
-				size = 293
+				pop_type = slaves
+				culture = equatorial_bantu
+				size = 13000
 			}
 		}
-		region_state:POR = {
-			create_pop = {
-				culture = british
-				size = 1
-			}
-			create_pop = {
-				culture = fang
-				size = 11090
-			}
+		region_state:DLA = {
 			create_pop = {
 				culture = equatorial_bantu
-				size = 22303
+				size = 600000
 			}
 			create_pop = {
-				culture = afro_caribbean
-				size = 27
-			}
-			create_pop = {
-				culture = bakongo
-				size = 96
-			}
-			create_pop = {
-				culture = afro_brazilian
-				size = 79
-			}
-			create_pop = {
-				culture = portuguese
-				size = 10
-			}
-		}
-		region_state:SPA = {
-			create_pop = {
-				culture = british
-				size = 1
-			}
-			create_pop = {
-				culture = fang
-				size = 11089
-			}
-			create_pop = {
+				pop_type = slaves
 				culture = equatorial_bantu
-				size = 22303
-			}
-			create_pop = {
-				culture = afro_caribbean
-				size = 27
-			}
-			create_pop = {
-				culture = bakongo
-				size = 96
-			}
-			create_pop = {
-				culture = afro_brazilian
-				size = 78
-			}
-			create_pop = {
-				culture = portuguese
-				size = 10
+				size = 80000
 			}
 		}
 	}
@@ -2761,55 +2716,54 @@
 		region_state:FNG = {
 			create_pop = {
 				culture = fang
-				size = 63200
+				size = 56000
 			}
 			create_pop = {
 				culture = equatorial_bantu
-				size = 160800
+				size = 60800
 			}
 			create_pop = {
-				culture = bakongo
-				size = 25600
+				pop_type = slaves
+				culture = fang
+				size = 15000
 			}
 			create_pop = {
-				culture = wolof
-				size = 3200
+				pop_type = slaves
+				culture = equatorial_bantu
+				size = 20000
 			}
 		}
 		region_state:LNG = {
 			create_pop = {
-				culture = fang
-				size = 14220
-			}
-			create_pop = {
-				culture = equatorial_bantu
-				size = 36180
-			}
-			create_pop = {
 				culture = bakongo
-				size = 5760
+				size = 32000
 			}
 			create_pop = {
 				culture = wolof
-				size = 720
-			}
-		}
-		region_state:SPA = {
-			create_pop = {
-				culture = fang
-				size = 1580
+				size = 3000
 			}
 			create_pop = {
 				culture = equatorial_bantu
-				size = 4020
+				size = 105200
 			}
 			create_pop = {
-				culture = bakongo
-				size = 640
+				culture = fang
+				size = 6000
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = wolof
-				size = 80
+				size = 1000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = equatorial_bantu
+				size = 15000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = fang
+				size = 2000
 			}
 		}
 	}

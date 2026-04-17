@@ -8291,11 +8291,11 @@ STATES = {
 	s:STATE_DAGESTAN = {
 	    create_state = {
 	        country = c:CHC
-	        owned_provinces = { x0F3A99 x84A24F x8FD393 xC09041 }
+	        owned_provinces = { x0F3A99 x84A24F x8FD393 xC01040 xC09041 }
 	    }
 	    create_state = {
 	        country = c:E14
-	        owned_provinces = { x9F1D8F xC01040 xDA5ABE }
+	        owned_provinces = { x9F1D8F xDA5ABE }
 	    }
 	    create_state = {
 	        country = c:E19

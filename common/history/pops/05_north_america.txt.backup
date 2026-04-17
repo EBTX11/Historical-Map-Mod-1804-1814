@@ -181,32 +181,18 @@
 		}
 	}
 	s:STATE_WASHINGTON = {
-		region_state:NZP = {
-			create_pop = {
-				culture = yankee
-				size = 300
-			}
-			create_pop = {
-				culture = nez_perce
-				size = 1500
-			}
-			create_pop = {
-				culture = salish
-				size = 1500
-			}
-		}
 		region_state:XXQ = {
 			create_pop = {
 				culture = yankee
-				size = 1700
+				size = 2000
 			}
 			create_pop = {
 				culture = nez_perce
-				size = 8500
+				size = 10000
 			}
 			create_pop = {
 				culture = salish
-				size = 8500
+				size = 10000
 			}
 		}
 	}

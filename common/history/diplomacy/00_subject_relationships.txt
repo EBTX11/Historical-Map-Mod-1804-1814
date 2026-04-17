@@ -1,4 +1,39 @@
 ﻿DIPLOMACY = {
+	c:PER = {
+		create_diplomatic_pact = {
+			country = c:E07
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:E08
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:E09
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:E10
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:E11
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:E12
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:E15
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:E14
+			type = vassal
+		}  
+	}
+
 	c:CHI = {
 		create_diplomatic_pact = {
 			country = c:TIB
@@ -210,6 +245,14 @@
 	}
 
 	c:TUR = {
+		create_diplomatic_pact = {
+			country = c:E17
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:CIR
+			type = puppet
+		}
 		create_diplomatic_pact = {
 			country = c:EGY
 			type = puppet

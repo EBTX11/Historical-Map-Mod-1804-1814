@@ -1151,73 +1151,58 @@
 		region_state:OUA = {
 			create_pop = {
 				culture = bidan
-				size = 9222
+				size = 24000
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = haratin
-				size = 582
+				size = 1121
 			}
 			create_pop = {
 				culture = mande
-				size = 5392
+				size = 12000
 			}
 			create_pop = {
-				culture = berber
-				size = 200
+				pop_type = slaves
+				culture = mande
+				size = 4400
 			}
 		}
 		region_state:RGB = {
 			create_pop = {
 				culture = bidan
-				size = 22672
-			}
-			create_pop = {
-				culture = haratin
-				size = 1432
-			}
-			create_pop = {
-				culture = mande
-				size = 13255
+				size = 8102
 			}
 			create_pop = {
 				culture = berber
-				size = 491
-			}
-		}
-		region_state:SGU = {
-			create_pop = {
-				culture = bidan
-				size = 3074
+				size = 1214
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = haratin
-				size = 194
-			}
-			create_pop = {
-				culture = mande
-				size = 1797
-			}
-			create_pop = {
-				culture = berber
-				size = 66
+				size = 1300
 			}
 		}
+		
+	
 		region_state:SHR = {
 			create_pop = {
 				culture = bidan
-				size = 21134
+				size = 24000
 			}
 			create_pop = {
+				pop_type = slaves
 				culture = haratin
-				size = 1334
+				size = 1121
 			}
 			create_pop = {
 				culture = mande
-				size = 12356
+				size = 12000
 			}
 			create_pop = {
-				culture = berber
-				size = 457
+				pop_type = slaves
+				culture = mande
+				size = 4400
 			}
 		}
 	}

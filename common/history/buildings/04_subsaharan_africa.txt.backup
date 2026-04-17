@@ -4046,7 +4046,7 @@
 		}
 	}
 	s:STATE_SOUTH_CAMEROON={
-		region_state:DLA={
+		region_state:SIL={
 			create_building={
 				building="building_port"
 				add_ownership={
@@ -4055,7 +4055,7 @@
 						levels=1
 					}
 					country={
-						country="c:DLA"
+						country="c:SIL"
 						levels=1
 					}
 				}
@@ -4067,37 +4067,7 @@
 				add_ownership={
 					building={
 						type="building_manor_house"
-						country="c:DLA"
-						levels=1
-						region="STATE_SOUTH_CAMEROON"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "coffee_plantation_dry_process" "coffee_plantation_patio_drying" "pm_road_carts" "worker_exploitation_coffee" }
-			}
-		}
-		region_state:FNG={
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:GBR"
-						levels=1
-					}
-					country={
-						country="c:FNG"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-			create_building={
-				building="building_coffee_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:FNG"
+						country="c:SIL"
 						levels=1
 						region="STATE_SOUTH_CAMEROON"
 					}
@@ -4107,64 +4077,10 @@
 			}
 		}
 		region_state:POR={
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:GBR"
-						levels=1
-					}
-					country={
-						country="c:POR"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-			create_building={
-				building="building_coffee_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:POR"
-						levels=1
-						region="STATE_SOUTH_CAMEROON"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "coffee_plantation_dry_process" "coffee_plantation_patio_drying" "pm_road_carts" "worker_exploitation_coffee" }
-			}
 		}
-		region_state:SPA={
-			create_building={
-				building="building_port"
-				add_ownership={
-					country={
-						country="c:GBR"
-						levels=1
-					}
-					country={
-						country="c:SPA"
-						levels=1
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-			create_building={
-				building="building_coffee_plantation"
-				add_ownership={
-					building={
-						type="building_manor_house"
-						country="c:SPA"
-						levels=1
-						region="STATE_SOUTH_CAMEROON"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "coffee_plantation_dry_process" "coffee_plantation_patio_drying" "pm_road_carts" "worker_exploitation_coffee" }
-			}
+		region_state:FNG={
+		}
+		region_state:DLA={
 		}
 	}
 	s:STATE_UBANGI_SHARI={
@@ -4356,8 +4272,6 @@
 		region_state:FNG={
 		}
 		region_state:LNG={
-		}
-		region_state:SPA={
 		}
 	}
 	s:STATE_ZAMBIA={
